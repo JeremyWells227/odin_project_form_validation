@@ -1,0 +1,15 @@
+ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+
+}
+
+input:invalid{
+	border: 1px solid red;
+
+}
+input:valid{
+	border: 1px solid black;
+
+}

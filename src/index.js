@@ -1,4 +1,18 @@
 import "./reset.css"
 import "./style.css"
 
-console.log("Hello World")
+function checkCountry() {
+
+}
+
+function checkZip(){
+
+}
+
+function checkEmail(){
+
+}
+
+function checkPassword(){
+
+}
