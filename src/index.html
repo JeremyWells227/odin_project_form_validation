@@ -5,16 +5,17 @@
 	<title></title>
 </head>
 <body>
-	<form id="form" onSubmit={validateandSubmit}> 
+	<form id="check-form" > 
 		<ul>
 			<li>
 				<label for="email">email:</label>
-				<input id="email">
+				<input id="email" type="email">
 			</li>
 			<li>
 				<label for="country">country:</label>
 				<!-- country names and country code -->
 				<select class="form-select" id="country" name="country">
+					<option value="US">United States</option>
 					<option value="">country</option>
 					<option value="AF">Afghanistan</option>
 					<option value="AX">Åland Islands</option>
@@ -254,7 +255,6 @@
 					<option value="UA">Ukraine</option>
 					<option value="AE">United Arab Emirates</option>
 					<option value="GB">United Kingdom</option>
-					<option value="US">United States</option>
 					<option value="UY">Uruguay</option>
 					<option value="UZ">Uzbekistan</option>
 					<option value="VU">Vanuatu</option>
